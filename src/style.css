@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'bird';
+    src: url(fonts/LittleBird.ttf);
+}
+@font-face {
+    font-family: 'gigles';
+    src: url(fonts/2Peas\ Mister\ Giggles.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.pag {
+    background-image: url(images/P\ fondo\ pantalla\ .png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-color: aqua;
+    font-family: 'gigles';
+    text-align: center;
+}
+.piepag {
+    text-align: center;
+}
+.cipher {
+    background-image: url(images/background-1475670_1920.jpg);
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+    font-family: 'gigles';
+    color: #F8F8FF;
+    text-align: center;
+    font-size: large;
+    display: none;
+}
+
+.dcipher {
+    background-image: url(images/fondo\ unicorn.png);
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+    font-family: 'gigles';
+    color: #B200FF;
+    text-align: center;
+    font-size: x-large;
+    display: none;
+}
+
+.informacion {
+    border-radius: 50px;
+    width:50px;
+    height:50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-image: -webkit-linear-gradient(top, #F46B45, #EEA849);
+    background-image: -moz-linear-gradient(top, #F46B45, #EEA849);
+    background-image: -ms-linear-gradient(top, #F46B45, #EEA849);
+    background-image: -o-linear-gradient(top,  #F46B45, #EEA849);
+    background-image: linear-gradient(to bottom,  #F46B45, #EEA849);
+    border-color: #EEA849;
+    font-family: 'gigles';
+    font-size: xx-large;
+    color: #FBFF00;
+}
+
+h1 {
+    font-family: 'gigles';
+    font-size: xx-large;
+}
+
+.enlace {
+    font-family: 'gigles';
+    font-size: x-large;
+    text-decoration: none;
+    color: #000286;
+}
+
+.inst {
+    background-color: rgba(238, 168, 73, 1);    
+    padding: 100px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-height: 250px;
+    border-radius: 22px;
+    font-family: 'bird';
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    display: none;
+}
+h4 {
+    font-family: 'bird';
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder; 
+}
+
+.cent {
+    margin-left: 80%;
+    float: left;
+}
+
+label {
+    font-family: 'bird';
+    font-weight: bold;
+}
+
+.inputs {
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -moz-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -ms-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -o-linear-gradient(top,  #43C6AC, #F8FFAE);
+    background-image: linear-gradient(to bottom,  #43C6AC, #F8FFAE);
+    border-color: #FFFF00;
+    width: 400px;
+    height: 40px;
+    font-family: 'gigles';
+    font-size: medium;
+}
+
+.btn {
+    background: #eb94d0;
+    background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+font-family: 'Bird';
+  color: #fafafa;
+  font-size: 15px;
+  padding: 19px;
+  text-decoration: none;
+}
+
+.btn:hover {
+    background: #2079b0;
+  background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+  text-decoration: none;
+}
+
+#nomber {
+    border-radius: 25px;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -moz-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -ms-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -o-linear-gradient(top,  #43C6AC, #F8FFAE);
+    background-image: linear-gradient(to bottom,  #43C6AC, #F8FFAE);
+    border-color: #FFFF00;
+    text-align: center;
+    font-family: 'gigles';
+    font-weight: bolder;
+}

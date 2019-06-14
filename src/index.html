@@ -2,13 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>SecretSafe</title>
+    <link rel="icon" href="images/Logo.ico" type="image/ico" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+        <!--primera seccion-->
+        <section class="pag" id="pag1">
+            <!--separo el logo para modificarlo-->
+                    <div class="Logotipo" id="Logo1" align = center>
+                            <img src="images/Logogrand.png" alt="Logotipo del sitio" style="width: 200px; height: 200;" class="center">
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+              <h1>¡Hola, Bienvenid@!</h1>
+              <br>
+              <br>
+              <br>
+              <!--Importanteee, modificar más adelante para el evento (Modificado)-->
+              <a class="enlace" id="lass1" href="#cifrar">Ocultar mensaje </a> &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a class="enlace" id="lass2" href="#descifrar">Mostrar mensaje</a>
+              <br><br><br><br>
+              <button class="informacion" id="Info" >i</button>
+              <br><br><br><br><br>
+              <footer class="piepag">Rosario Vazquez 2019</footer>
+            </section>
+        <!--segunda seccion-->
+             <section class="cipher" id="cifrar">
+                <img src="images/Logogrand.png" alt="Logotipo del sitio" style="width: 200px; height: 200;" class="cent">
+                 <h2>Ocultar mensaje</h2>
+              <br>
+              <label>Mueve las flechas y prueba diferentes combinaciones. &nbsp &nbsp <input type="number" id="nomber" min="0" max="30"></label>
+              <br><br>
+        <!--Todos los input type class=inputs diferente id (modificar id)-->
+              <input type="text" class="inputs" placeholder="Introduce el texto que vas a ocultar">
+              <br><br>
+              <button class="btn" id="ocult">¡Ocultemos ese secreto!</button>
+              <br><br>
+              <input type="text" class="inputs" placeholder="Mensaje secreto">
+                
+             </section>
+        <!--tercera seccion-->
+             <section class="dcipher" id="descifrar">
+                <img src="images/Logogrand.png" alt="Logotipo del sitio" style="width: 200px; height: 200;" class="cent">
+               <h3>Mostrar mensaje</h3>
+               <br><br>
+              <input type="text" class="inputs" placeholder="Ingresa mensaje secreto">
+              <br><br>
+              <!--Falta definir id, clas...-->
+              <button class="btn" id="discover">¡Descubrir mi mensaje!</button>
+              <br><br>
+              <input type="text" class="inputs" placeholder="Esto es lo que dice">
+             </section>
+        
+        <!--última sección (aparece y desaparece)-->
+             <section class="inst" id="instrucciones">
+               <h4>Información.</h4>
+               <br><br>
+               <p id="rules">Lo que hace esta aplicación es convertir lo que escribas en un código secreto y especial, que pocos entenderán.<br>
+               <br> Podrás escribir y compartir secretos con tus amigos.
+              <br><br>Se divertirán intentando descubrir lo que otros escribieron, incluso llevar un registro en tu diario, para que los metiches no puedan leerlo.
+              <br> <br>El límite es tu imaginación.</p>
+        
+               </section>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
