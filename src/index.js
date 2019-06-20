@@ -35,7 +35,7 @@ const cerrarVen = document.getElementById ("cerrar");
 cerrarVen.addEventListener ("click", closeInfo);
 
 const returnHome = () => {
-    location.reload ();
+    location.reload ('pag1');
 }
 
 const returnPag = document.getElementById ("regini");
