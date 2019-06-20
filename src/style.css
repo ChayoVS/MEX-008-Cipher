@@ -11,6 +11,10 @@
     margin: 0px;
     padding: 0px;
 }
+
+.Logotipo {
+    margin: auto;
+}
 .pag {
     background-image: url(images/P\ fondo\ pantalla\ .png);
     width: 100vw;
@@ -46,7 +50,7 @@
     background-size: 100% 100%;
     overflow: hidden;
     font-family: 'gigles';
-    color: #B200FF;
+    color: #47006F;
     text-align: center;
     font-size: x-large;
     display: none;
@@ -84,12 +88,13 @@ h1 {
 .inst {
     background-color: rgba(238, 168, 73, 1);    
     padding: 100px;
-    margin: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px;
+    left: 20%;
     width: 40%;
+    position: absolute;
     min-height: 250px;
     border-radius: 22px;
+    top: 1%;
     font-family: 'bird';
     text-align: center;
     font-size: large;
@@ -106,6 +111,7 @@ h4 {
 .cent {
     margin-left: 80%;
     float: left;
+    cursor: pointer;
 }
 
 label {
@@ -170,4 +176,23 @@ font-family: 'Bird';
     text-align: center;
     font-family: 'gigles';
     font-weight: bolder;
+}
+#cerrar {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#nomber2 {
+    border-radius: 25px;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -moz-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -ms-linear-gradient(top, #43C6AC, #F8FFAE);
+    background-image: -o-linear-gradient(top,  #43C6AC, #F8FFAE);
+    background-image: linear-gradient(to bottom,  #43C6AC, #F8FFAE);
+    border-color: #FFFF00;
+    text-align: center;
+    font-family: 'gigles';
+    font-weight: bolder; 
 }
